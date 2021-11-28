@@ -38,14 +38,14 @@
   display: flex;
 }
 .to-do-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .to-do-list-item{
-  list-style:none;
+  list-style: none;
 }
 .input, .button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -138,14 +138,14 @@
 
 /* Edit Task */
 .to-do-list .to-do-list-item .input[type="text"] {
-  display:none
+  display: none
 }
 
 .to-do-list .edit-panel .input[type="text"] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .to-do-list .edit-panel .label {
-  display:none;
+  display: none;
 }
