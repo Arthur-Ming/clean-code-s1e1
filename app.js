@@ -12,7 +12,6 @@ var taskInput=document.querySelector(".input__add");//Add a new task.
 var addButton=document.querySelector('.button__add');//first button
 var incompleteTaskHolder=document.querySelector(".main__tasks_incompleted");//ul of .main__tasks_incompleted
 var completedTasksHolder=document.querySelector(".main__tasks_completed");//main__tasks_completed
-console.log(incompleteTaskHolder)
 
 //New task list item
 var createNewTaskElement=function(taskString){
@@ -115,7 +114,7 @@ var deleteTask=function(){
     var listItem=this.parentNode;
     var ul=listItem.parentNode;
     //Remove the parent list item from the ul.
-    console.log(listItem)
+    
     ul.removeChild(listItem);
 
 }
